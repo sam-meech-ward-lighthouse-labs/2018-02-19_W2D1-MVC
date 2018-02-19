@@ -13,6 +13,8 @@
 		22C9D996203B3A8D00E2E3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D995203B3A8D00E2E3D4 /* Assets.xcassets */; };
 		22C9D999203B3A8D00E2E3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C9D997203B3A8D00E2E3D4 /* LaunchScreen.storyboard */; };
 		22C9D99C203B3A8D00E2E3D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D99B203B3A8D00E2E3D4 /* main.m */; };
+		22C9D9A4203B4BC900E2E3D4 /* River.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D9A3203B4BC900E2E3D4 /* River.m */; };
+		22C9D9A7203B4BD600E2E3D4 /* Canopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D9A6203B4BD600E2E3D4 /* Canopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		22C9D998203B3A8D00E2E3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C9D99A203B3A8D00E2E3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C9D99B203B3A8D00E2E3D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C9D9A2203B4BC900E2E3D4 /* River.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = River.h; sourceTree = "<group>"; };
+		22C9D9A3203B4BC900E2E3D4 /* River.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = River.m; sourceTree = "<group>"; };
+		22C9D9A5203B4BD600E2E3D4 /* Canopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Canopy.h; sourceTree = "<group>"; };
+		22C9D9A6203B4BD600E2E3D4 /* Canopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canopy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				22C9D98D203B3A8D00E2E3D4 /* AppDelegate.m */,
 				22C9D98F203B3A8D00E2E3D4 /* ViewController.h */,
 				22C9D990203B3A8D00E2E3D4 /* ViewController.m */,
+				22C9D9A2203B4BC900E2E3D4 /* River.h */,
+				22C9D9A3203B4BC900E2E3D4 /* River.m */,
+				22C9D9A5203B4BD600E2E3D4 /* Canopy.h */,
+				22C9D9A6203B4BD600E2E3D4 /* Canopy.m */,
 				22C9D992203B3A8D00E2E3D4 /* Main.storyboard */,
 				22C9D995203B3A8D00E2E3D4 /* Assets.xcassets */,
 				22C9D997203B3A8D00E2E3D4 /* LaunchScreen.storyboard */,
@@ -143,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C9D991203B3A8D00E2E3D4 /* ViewController.m in Sources */,
+				22C9D9A7203B4BD600E2E3D4 /* Canopy.m in Sources */,
 				22C9D99C203B3A8D00E2E3D4 /* main.m in Sources */,
+				22C9D9A4203B4BC900E2E3D4 /* River.m in Sources */,
 				22C9D98E203B3A8D00E2E3D4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
